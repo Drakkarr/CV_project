@@ -1,0 +1,205 @@
+header {
+
+	background: url(images/codeur.jpg) center fixed;
+    background-size: cover;
+    background-attachment: local;
+}
+
+
+body {
+	margin: 0px;
+}
+
+.mycv {
+	width: 6%;
+	border: 3px #236EE9 solid;
+	border-radius: 10px / 10px; 
+	box-shadow: 2px 2px 2px black;
+	text-align: center;
+	background: linear-gradient(to right, #236EE9, #BCBCBC);
+}
+
+.menu {
+	display: flex;
+	float: right;
+	border: 1px solid #236EE9;
+	background-color: #BCBCBC;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-shadow: 6px 6px 7px black;
+	margin-right: 10px;
+	box-shadow: 2px 2px 2px black;
+}
+
+.nav {
+	margin: 15px;
+}
+
+.photocv{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+h1, h2 {
+	margin: auto;
+	color: white;
+	text-align: center;
+	font-family: Comic sans MS;
+}
+
+.téléchargement {
+	width :10%;
+	border: 1px solid #236EE9;
+	border-radius: 6px / 6px;
+	background: linear-gradient(to right, #236EE9, #BCBCBC);
+	text-align: center;
+	padding: 8px;
+	margin: auto;
+	box-shadow: 2px 2px 2px black;
+
+}
+
+.linkedin {
+	width :6%;
+	border: 1px solid #236EE9;
+	border-radius: 6px / 6px;
+	background: linear-gradient(to right, #236EE9, #BCBCBC);
+	text-align: center;
+	padding: 8px;
+	margin: auto;
+	box-shadow: 2px 2px 2px black;
+}
+
+.mail{
+	width :4%;
+	border: 1px solid #236EE9;
+	border-radius: 6px / 6px;
+	background: linear-gradient(to right, #236EE9, #BCBCBC);
+	text-align: center;
+	padding: 8px;
+	margin: auto;
+	box-shadow: 2px 2px 2px black;
+}
+
+
+.footer {
+	width: 70%;
+	border: 1px solid #919291;
+	border-radius: 6px / 6px;
+	display: flex;
+	margin: auto;
+	justify-content: space-around;
+	box-shadow: 12px 12px 12px #919291;
+	background: linear-gradient(to left, #ECECEC, #BCBCBC);
+	font-family: Comic sans MS;
+	font-size: 13px;
+	word-wrap: break-word;
+}
+
+.about {
+	width :40%;
+	text-align: justify;
+}
+
+.basic {
+	width :40%;
+	height: 300px;
+}
+
+.titre {
+	border-top: 2px solid #236EE9;
+	border-left: 2px solid #236EE9;
+}
+
+@media only screen and (max-width: 480px) and (min-width: 320px) {
+	.mycv{
+		width: 16%;
+	}
+	
+	.nav {
+		margin: 10px;
+	}
+	.téléchargement {
+		width: 28%;
+	}
+
+	.linkedin {
+		width: 16%;
+	}
+
+	.mail {
+		width: 13%;
+	}
+
+	.footer {
+		font-size: 10px;
+		width: 90%;
+		height: 265px;
+	}
+	
+}
+
+@media only screen and (min-width : 720px) {
+   .mycv{
+   	width: 15%;
+   	height: 9%;
+   	font-size: 25px;
+   }
+
+   .menu {
+   	width: 30%;
+   	height: 15%;
+   	position: relative;
+   	right: 75px;
+
+   }
+
+   .nav {
+   	font-size: 22px;
+   }
+
+   .photocv{
+   	position : relative;
+   	left: 175px;
+   	width: 30%;
+   }
+
+   h1, h2 {
+   	font-size: 50px;
+   }
+
+   .téléchargement {
+   	width: 23%;
+   	font-size: 30px;
+
+   }
+   .linkedin {
+   	width: 15%;
+   	font-size: 30px;
+   }
+
+   .mail {
+   	width: 11%;
+   	font-size: 30px;
+   }
+
+   .titre {
+   	font-size: 25px;
+   }
+
+   .footer {
+   	font-size: 17px;
+   	height: 60%;
+   }
+
+   .basic {
+   	font-size: 13px;
+   }
+
+}
+
+
+
